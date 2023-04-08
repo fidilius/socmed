@@ -113,7 +113,8 @@ const PinDetail = ({ user }) => {
             <p className="mt-3">{pinDetail.about}</p>
           </div>
           <Link
-            to={`user-profile/${pinDetail.postedBy?._id}`}
+            to={`/user-profile/${pinDetail.postedBy?._id}`}
+            relative="route"
             className="flex gap-2 mt-5 items-center bg-white rounded-lg"
           >
             <img

@@ -58,7 +58,6 @@ const Login = () => {
                   console.log("Login Failed")
                 }}
               />
-              ;
             </GoogleOAuthProvider>
           </div>
         </div>
