@@ -105,7 +105,7 @@ const Pin = ({
                   href={destination}
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-white flex items-center gap-2 text-black font-bold py-2 px-4 rounded-full opacity-70 hover:opacity-100 hover:shadow-md"
+                  className="bg-white flex items-center gap-2 text-black font-bold py-2 px-4 lg:px-2 lg:text-sm rounded-full opacity-70 hover:opacity-100 hover:shadow-md"
                   onClick={(e) => e.stopPropagation()}
                 >
                   <BsFillArrowUpRightCircleFill />
